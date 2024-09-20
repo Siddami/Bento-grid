@@ -4,8 +4,15 @@
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
+    line-height: 1;
 }
 
+
+@media (max-width:1300px) {
+    #grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 
 
